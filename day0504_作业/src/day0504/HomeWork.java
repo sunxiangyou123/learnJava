@@ -6,20 +6,27 @@ import java.util.Random;
 public class HomeWork {
 
 	public static void main(String[] args) {
-		int[] a = {1,2,3,4,5,6,7};
-		int[] c = new int[a.length];
+		int[] a = new int[10];
 		for (int i = 0; i < a.length; i++) {
-			int j = new Random().nextInt(7);
-			
-			while(a[j] == a[i]) {
-				j++;
-			}
-			a[i] = a[j];
-			
+			a[i] = i;
 			
 		}
 		System.out.println(Arrays.toString(a));
+			shuffle(a);
+			
+		}
+
+	private static void shuffle(int[] a) {
+		for (int i = 0; i < a.length; i++) {
+			int j = new Random().nextInt(a.length);
+			int t = a[i];
+			a[i] = a[j];
+			a[j] = t;
+		}
+		System.out.println(Arrays.toString(a));
+	}
+		
 
 	}
 
-}
+
