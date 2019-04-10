@@ -3,8 +3,25 @@ package day0601;
 import java.util.Random;
 
 public class Weapon {
-	String name;
-	int bullets;
+	private String name;
+	private int bullets;
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public int getBullets() {
+		return this.bullets;
+	}
+	
+	public void setBullets(int bullets) {
+		this.bullets = bullets;
+	}
+	
 	public Weapon() {}
 	public Weapon(String name) {
 		this(name,50);

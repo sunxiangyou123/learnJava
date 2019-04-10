@@ -3,11 +3,15 @@ package day0601;
 import java.util.Scanner;
 
 public class Test1 {
-	static Soldier s1 = new Soldier(9527);
-	static Soldier s2 = new Soldier(9528);
+	private static Soldier s1;
+	private static Soldier s2;
 	
 	public static void main(String[] args) {
-	System.out.println(s1.id+"号士兵,"+s2.id+"号士兵整顿完毕请指示：");
+		
+	s1 = new Soldier(9527);
+	s2 = new Soldier(9528);
+	
+	System.out.println(s1.getId()+"号士兵,"+s2.getId()+"号士兵整顿完毕请指示：");
 	 outer:
 		 while(true) {
 			 int c = caidan();

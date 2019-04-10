@@ -32,5 +32,24 @@ public class Soldier {
 			System.out.println(id+"ºÅÊ¿±øÕóÍö");
 		}
 	}
-
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getBlood() {
+		return blood;
+	}
+	public void setBlood(int blood) {
+		this.blood = blood;
+	}
+	public Weapon getWeapon() {
+		return weapon;
+	}
+	public void setWeapon(Weapon weapon) {
+		this.weapon = weapon;
+	}
+	
+	
 }
