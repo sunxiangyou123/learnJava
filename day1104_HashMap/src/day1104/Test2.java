@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Test2 {
 	public static void main(String[] args) {
-		System.out.println("ÊäÈë×Ö·û´®");
+		System.out.println("è¾“å…¥å­—ç¬¦ä¸²");
 		String s = new Scanner(System.in).nextLine();
 		HashMap<Character, Integer> map = tongJi(s);
 		System.out.println(map);

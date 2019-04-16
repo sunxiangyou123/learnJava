@@ -22,14 +22,14 @@ public class Test1 {
 		t = System.currentTimeMillis();
 		System.out.println(l.get(5000));
 		System.out.println(System.currentTimeMillis() - t);
-		System.out.println("\n------下标遍历--------------------------");
+		System.out.println("\n------涓嬫爣閬嶅巻--------------------------");
 		t = System.currentTimeMillis();
 		for (int i = 0; i < l.size(); i++) {
 			l.get(i);
 			
 		}
 		System.out.println(System.currentTimeMillis() - t);
-		System.out.println("\n------迭代遍历");
+		System.out.println("\n------杩唬閬嶅巻");
 		t = System.currentTimeMillis();
 		Iterator<Integer> it = l.iterator();
 		while(it.hasNext()) {

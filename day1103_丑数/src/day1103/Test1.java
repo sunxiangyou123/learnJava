@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class Test1 {
 	public static void main(String[] args) {
-		System.out.println("ÇóµÚ¼¸¸ö³óÊý");
+		System.out.println("æ±‚ç¬¬å‡ ä¸ªä¸‘æ•°");
 		int n = new Scanner(System.in).nextInt();
 		long r = f(n);
 		System.out.println(r);
 	}
-	//µÍÐ§ÂÊ·½·¨
+	//ä½Žæ•ˆçŽ‡æ–¹æ³•
 	private static long g(int n) {
 		 if (n == 1) {
 			return 1;

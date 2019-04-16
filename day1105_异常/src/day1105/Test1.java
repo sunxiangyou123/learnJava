@@ -9,11 +9,11 @@ public class Test1 {
 				f();
 				break;}
 				catch (ArrayIndexOutOfBoundsException e) {
-					System.out.println("ÇëÊäÈëÁ½¸öÕûÊı");
+					System.out.println("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°");
 				}catch (ArithmeticException e) {
-					System.out.println("²»ÄÜ³ıÒÔ0");
+					System.out.println("ä¸èƒ½é™¤ä»¥0");
 				}catch (Exception e) {
-					System.out.println("³ö´í£¬ÇëÖØÊÔ");
+					System.out.println("å‡ºé”™ï¼Œè¯·é‡è¯•");
 				}finally {
 					System.out.println("\n--------------------");
 				}
@@ -22,7 +22,7 @@ public class Test1 {
 	
 
 	private static void f() {
-		System.out.println("ÇëÊäÈë¶ººÅ¸ô¿ªµÄÁ½¸öÕûÊı£º");
+		System.out.println("è¯·è¾“å…¥é€—å·éš”å¼€çš„ä¸¤ä¸ªæ•´æ•°ï¼š");
 		String s = new Scanner(System.in).nextLine();
 		String[] a = s.split(",");
 		int n1 = Integer.parseInt(a[0]);

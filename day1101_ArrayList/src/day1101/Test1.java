@@ -12,7 +12,7 @@ import org.omg.PortableInterceptor.Interceptor;
 public class Test1 {
 	public static void main(String[] args) {
 		ArrayList<Integer> l =new ArrayList<>();
-		System.out.println("输入回车执行,q停止");
+		System.out.println("杈撳叆鍥炶溅鎵ц,q鍋滄");
 		while(true) {
 			String s = new Scanner(System.in).nextLine();
 			if (s.equals("q")) {

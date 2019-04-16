@@ -5,14 +5,14 @@ import java.util.HashMap;
 public class Test1 {
 	public static void main(String[] args) {
 		HashMap<Integer, String> map = new HashMap<>();
-		map.put(99527, "ÌÆ²®»¢");
-		map.put(99528, "»ª·òÈË");
-		map.put(99529, "×£Ö¦É½");
-		map.put(99530, "Íú²Æ");
-		map.put(99531, "Ğ¡Ç¿");
-		map.put(99532, "Ê¯Áñ½ã");
-		map.put(99533, "ÇïÏã");
-		map.put(99533, "Èç»¨");//ĞÂÖµÌæ»»¾ÉÖµ
+		map.put(99527, "å”ä¼¯è™");
+		map.put(99528, "åå¤«äºº");
+		map.put(99529, "ç¥æå±±");
+		map.put(99530, "æ—ºè´¢");
+		map.put(99531, "å°å¼º");
+		map.put(99532, "çŸ³æ¦´å§");
+		map.put(99533, "ç§‹é¦™");
+		map.put(99533, "å¦‚èŠ±");//æ–°å€¼æ›¿æ¢æ—§å€¼
 		map.put(99534, null);
 		map.put(null, "---");
 		System.out.println(map.size());

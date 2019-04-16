@@ -7,3 +7,4 @@ target
 .recommenders/
 .classpath
 .settings
+.idea
