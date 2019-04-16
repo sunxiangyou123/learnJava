@@ -4,7 +4,7 @@ public class Test2 {
 public static void main(String[] args) {
 	Person p = new Person();
 	Student s1 = new Student();
-	Student s2 = new Student("ÕÔËÄ","ÄĞ",24,"Ïç´å´óÑ§");
+	Student s2 = new Student("èµµå››","ç”·",24,"ä¹¡æ‘å¤§å­¦");
 	System.out.println(p);
 	System.out.println(s1);
 	System.out.println(s2);

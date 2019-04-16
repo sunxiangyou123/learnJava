@@ -31,9 +31,9 @@ public class Weapon {
 		this.bullets = bullets;
 	}
 	public void fire() {
-		System.out.println(this.name + "¿ª»ğ");
+		System.out.println(this.name + "å¼€ç«");
 		if (bullets == 0) {
-			System.out.println("µ¯Ò©ÓÃ¾¡Çë¸ü»»µ¯¼Ğ");
+			System.out.println("å¼¹è¯ç”¨å°½è¯·æ›´æ¢å¼¹å¤¹");
 			return;
 		}
 		int r = 3 + new Random().nextInt(5);
@@ -45,7 +45,7 @@ public class Weapon {
 			System.out.print("biu");
 		}
 		System.out.println("~");
-		System.out.println("Ê£Óàµ¯Ò©" + bullets);
+		System.out.println("å‰©ä½™å¼¹è¯" + bullets);
 	}
 	public void reload() {
 		bullets = 50;

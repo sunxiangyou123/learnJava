@@ -11,7 +11,7 @@ public class Test1 {
 	}
 
 	private static void f1() {
-	    System.out.println("Éí·İÖ¤ºÅ£º");
+	    System.out.println("èº«ä»½è¯å·ï¼š");
 	    String s = new Scanner(System.in).nextLine();
 	    /*
 	     * 123456789012345
@@ -21,20 +21,20 @@ public class Test1 {
 	     * |
 	     * \d{15}|
 	     * \d{15}|\d{17}
-	     * \d{15}|\d{17}[\dxX]   ÕıÔò±í´ïÊ½Óï·¨
+	     * \d{15}|\d{17}[\dxX]   æ­£åˆ™è¡¨è¾¾å¼è¯­æ³•
 	     * "\\d{15}|\\d{17}[\\dxX]"
 	     */
 	    String regex = "\\d{15}|\\d{17}[\\dxX]";
-	    //ÅĞ¶Ï×Ö·û´®sÄÜ·ñÆ¥ÅäÖ¸¶¨µÄÕıÔò±í´ïÊ½
+	    //åˆ¤æ–­å­—ç¬¦ä¸²sèƒ½å¦åŒ¹é…æŒ‡å®šçš„æ­£åˆ™è¡¨è¾¾å¼
 	    if (s.matches(regex)) {
-	        System.out.println("¸ñÊ½ÕıÈ·");
+	        System.out.println("æ ¼å¼æ­£ç¡®");
 	    }else {
-	        System.out.println("¸ñÊ½´íÎó");
+	        System.out.println("æ ¼å¼é”™è¯¯");
 	    }
 	}
 
 	private static void f2() {
-	    System.out.println("¹Ì¶¨µç»°£º");
+	    System.out.println("å›ºå®šç”µè¯ï¼š");
 	    String s = new Scanner(System.in).nextLine();
 	    /*
 	     * 1234567
@@ -43,18 +43,18 @@ public class Test1 {
 	     * 0101-12345678
 	     * (010)1234567
 	     * (0101)12345678
-	     * (ÇøºÅ±í´ïÊ½)?\d{7,8}
+	     * (åŒºå·è¡¨è¾¾å¼)?\d{7,8}
 	     * (|)?\d{7,8}
 	     * (\d{3,4}-|)?\d{7,8}
 	     * (\d{3,4}-|())?\d{7,8}
 	     * (\d{3,4}-|\(\d{3,4}\))?\d{7,8}
 	     */
 	    String regex = "(\\d{3,4}-|\\(\\d{3,4}\\))?\\d{7,8}";
-	    //ÅĞ¶Ï×Ö·û´®sÄÜ·ñÆ¥ÅäÖ¸¶¨µÄÕıÔò±í´ïÊ½
+	    //åˆ¤æ–­å­—ç¬¦ä¸²sèƒ½å¦åŒ¹é…æŒ‡å®šçš„æ­£åˆ™è¡¨è¾¾å¼
 	    if (s.matches(regex)) {
-	        System.out.println("¸ñÊ½ÕıÈ·");
+	        System.out.println("æ ¼å¼æ­£ç¡®");
 	    }else {
-	        System.out.println("¸ñÊ½´íÎó");
+	        System.out.println("æ ¼å¼é”™è¯¯");
 	    }
 	}
 	}

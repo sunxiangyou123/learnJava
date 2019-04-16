@@ -19,20 +19,20 @@ public class Soldier {
 	
 	public void go() {
 		int d = new Random().nextInt(100);
-		System.out.println(id + "ºÅÊ¿±øÇ°½øÁË"+d+"Ã×");
+		System.out.println(id + "å·å£«å…µå‰è¿›äº†"+d+"ç±³");
 	}
 	
 	public void attack() {
-		System.out.println(id + "Ê¿±ø×¼±¸¿ª»ğ");
+		System.out.println(id + "å£«å…µå‡†å¤‡å¼€ç«");
 		weapon.fire();
 		int d = new Random().nextInt(20);
 		if (this.blood < d) {
 			d = this.blood;
 		}
 		this.setBlood(this.getBlood() - d); 
-		System.out.println(id+"ºÅÊ¿±øÊÜµ½"+d+"µãÉËº¦");
+		System.out.println(id+"å·å£«å…µå—åˆ°"+d+"ç‚¹ä¼¤å®³");
 		if (this.blood == 0) {
-			System.out.println(this.id+"ºÅÊ¿±øÒÑÕóÍö");
+			System.out.println(this.id+"å·å£«å…µå·²é˜µäº¡");
 			count--;
 			return;
 		}
@@ -40,7 +40,7 @@ public class Soldier {
 	}
 	
 	/**
-	 * ¸øÊ¿±øÊµÌå¸³ÖµÒ»¸öËæ»úÎäÆ÷
+	 * ç»™å£«å…µå®ä½“èµ‹å€¼ä¸€ä¸ªéšæœºæ­¦å™¨
 	 */
 	public void newWeapon() {
 		int w =1 + new Random().nextInt(2);

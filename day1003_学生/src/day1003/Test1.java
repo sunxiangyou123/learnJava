@@ -1,7 +1,7 @@
 package day1003;
 public class Test1 {
 	static {
-	    System.out.println("Test1 - ¾²Ì¬¿é");
+	    System.out.println("Test1 - é™æ€å—");
 	}
 	public static void main(String[] args) {
 		System.out.println("main");
@@ -11,8 +11,8 @@ public class Test1 {
 	    Student s4 = new Student();
 	    //s.id = 9527;
 	    s.setId(9527);
-	    s.setName("ÌÆ²®»¢");
-	    s.setGender("ÄĞ");
+	    s.setName("å”ä¼¯è™");
+	    s.setGender("ç”·");
 	    s.setAge(19);
 	    System.out.println(s.getId());
 	    System.out.println(s.getName());

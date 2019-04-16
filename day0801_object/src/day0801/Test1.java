@@ -8,9 +8,9 @@ public class Test1 {
 	    System.out.println(p2.toString());
 	    System.out.println(p1 == p2);
 	    /*
-	     * equals() ·½·¨±È½ÏÊ²Ã´£¬
-	     * Òª½øÈë·½·¨£¬¿´·½·¨´úÂë±È½ÏµÄÊÇÊ²Ã´
-	     * ObjectÖĞ±È½ÏÄÚ´æµØÖ·
+	     * equals() æ–¹æ³•æ¯”è¾ƒä»€ä¹ˆï¼Œ
+	     * è¦è¿›å…¥æ–¹æ³•ï¼Œçœ‹æ–¹æ³•ä»£ç æ¯”è¾ƒçš„æ˜¯ä»€ä¹ˆ
+	     * Objectä¸­æ¯”è¾ƒå†…å­˜åœ°å€
 	     */
 	    System.out.println(p1.equals(p2));
 	}

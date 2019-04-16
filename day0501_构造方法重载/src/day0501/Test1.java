@@ -4,9 +4,9 @@ public class Test1 {
 
 	public static void main(String[] args) {
 		Student s1 = new Student();		
-		Student s2 = new Student(6,"ÕÅÈı");		
-		Student s3 = new Student(6,"ÕÅÈı","ÄĞ");		
-		Student s4 = new Student(6,"ÕÅÈı","ÄĞ",23);	
+		Student s2 = new Student(6,"å¼ ä¸‰");		
+		Student s3 = new Student(6,"å¼ ä¸‰","ç”·");		
+		Student s4 = new Student(6,"å¼ ä¸‰","ç”·",23);	
 		System.out.println(s1.toString());
 		System.out.println(s2.toString());
 		System.out.println(s3.toString());

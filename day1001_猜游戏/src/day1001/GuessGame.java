@@ -7,7 +7,7 @@ public abstract class GuessGame {
 		String r = suiJi();
 		tiShi();
 		while(true) {
-			System.out.println("²Â£º");
+			System.out.println("çŒœï¼š");
 			String c = new Scanner(System.in).nextLine();
 			String result = biJiao(r , c);
 			System.out.println(result);

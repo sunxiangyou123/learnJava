@@ -5,7 +5,7 @@ public class Person {
 	String gender;
 	int age;
 	public Person() {
-		this("无名","不明",18);
+		this("鏃犲悕","涓嶆槑",18);
 	}
 	public Person(String name,String gender,int age) {
 		this.name = name ;

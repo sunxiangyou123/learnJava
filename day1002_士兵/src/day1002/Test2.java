@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Test2 {
 	public static void main(String[] args) {
-		System.out.println("Ê¿±øÊıÁ¿£º");
+		System.out.println("å£«å…µæ•°é‡ï¼š");
 		int n = new Scanner(System.in).nextInt();
 		Soldier[] s = new Soldier[n];
 		for (int i = 0; i < s.length; i++) {
@@ -13,7 +13,7 @@ public class Test2 {
 			s[i].setBlood(100);
 			s[i].newWeapon();
 		}
-		System.out.println("»Ø³µÖ´ĞĞ");
+		System.out.println("å›è½¦æ‰§è¡Œ");
 		while(Soldier.count != 0) {
 			new Scanner(System.in).nextLine();
 			for (int i = 0; i < s.length; i++) {
@@ -21,7 +21,7 @@ public class Test2 {
 					s[i].attack();
 				}
 			}
-			System.out.println("´æ»õÊ¿±øÊıÁ¿£º"+Soldier.count);
+			System.out.println("å­˜è´§å£«å…µæ•°é‡ï¼š"+Soldier.count);
 		}
 	}
 }

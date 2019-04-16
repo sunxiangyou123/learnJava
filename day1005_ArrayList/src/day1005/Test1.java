@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Test1 {
 	public static void main(String[] args) {
 	    /*
-	     * <> ·ºĞÍ£¬¶Ô¼¯ºÏÖĞ´æ·ÅµÄÊı¾İÀàĞÍ½øĞĞÏŞÖÆ
-	     * ·ºĞÍºÍ¼¯ºÏ¹¤¾ß£¬²»Ö§³Ö»ù±¾ÀàĞÍ
+	     * <> æ³›å‹ï¼Œå¯¹é›†åˆä¸­å­˜æ”¾çš„æ•°æ®ç±»å‹è¿›è¡Œé™åˆ¶
+	     * æ³›å‹å’Œé›†åˆå·¥å…·ï¼Œä¸æ”¯æŒåŸºæœ¬ç±»å‹
 	     *
 	     * list = {
 	     *     elementData=[null,null,null,null,null,null,null,null,null,null]

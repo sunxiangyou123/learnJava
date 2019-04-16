@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Test2 {
 	public static void main(String[] args) {
-		System.out.print("ÕûÊı£º");
+		System.out.print("æ•´æ•°ï¼š");
 	    int n = new Scanner(System.in).nextInt();
 	    byte[] a = f1(n);
 	    System.out.println(Arrays.toString(a));
@@ -23,9 +23,9 @@ public class Test2 {
 	     *
 	     * r = 00101010 11111001 10111010 00000000
 	     *
-	     * Ã¿Ò»¸ö×Ö½ÚÖµÏÈºÍ0x000000ffÇóÎ»Óë£¬
-	     * ÔÙ×óÒÆ24,16,8,0Î»
-	     * ÔÙºÍrÇóÎ»»ò£¬½á¹û±£´æµ½r
+	     * æ¯ä¸€ä¸ªå­—èŠ‚å€¼å…ˆå’Œ0x000000ffæ±‚ä½ä¸ï¼Œ
+	     * å†å·¦ç§»24,16,8,0ä½
+	     * å†å’Œræ±‚ä½æˆ–ï¼Œç»“æœä¿å­˜åˆ°r
 	     */
 	    int r = 0;
 	    for (int i = 0; i < a.length; i++) {
@@ -38,7 +38,7 @@ public class Test2 {
 	    /*
 	     * 00101010 11111001 10111010 10111011
 	     *
-	     * nÓÒÒÆ24,16,8,0£¬ÔÙÇ¿×ªbyte
+	     * nå³ç§»24,16,8,0ï¼Œå†å¼ºè½¬byte
 	     *    i 0  1  2 3
 	     */
 	    byte[] a = new byte[4];

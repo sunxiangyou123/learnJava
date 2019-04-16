@@ -12,9 +12,9 @@ public class Test1 {
 		System.out.println(Arrays.toString(b));
 		int[] red = xuanRed(r);
 		int blue = xuanBlue(b);
-		System.out.println("ºìÇò£º");
+		System.out.println("çº¢çƒï¼š");
 		System.out.println(Arrays.toString(red));
-		System.out.println("À¶Çò£º");
+		System.out.println("è“çƒï¼š");
 		System.out.println(blue);
 
 	}

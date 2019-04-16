@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Test1 {
 	public static void main(String[] args) {
-		System.out.println("°´»Ø³µÖ´ÐÐ");
+		System.out.println("æŒ‰å›žè½¦æ‰§è¡Œ");
 		Number[] n = new Number[0];
 		while(true) {
 			new Scanner(System.in).nextLine();

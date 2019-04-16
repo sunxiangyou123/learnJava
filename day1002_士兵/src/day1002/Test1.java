@@ -11,7 +11,7 @@ public class Test1 {
 	s1 = new Soldier(9527);
 	s2 = new Soldier(9528);
 	
-	System.out.println(s1.getId()+"ºÅÊ¿±ø,"+s2.getId()+"ºÅÊ¿±øÕû¶ÙÍê±ÏÇëÖ¸Ê¾£º");
+	System.out.println(s1.getId()+"å·å£«å…µ,"+s2.getId()+"å·å£«å…µæ•´é¡¿å®Œæ¯•è¯·æŒ‡ç¤ºï¼š");
 	 outer:
 		 while(true) {
 			 int c = caidan();
@@ -30,16 +30,16 @@ public class Test1 {
 	
 	private static int caidan() {
 		System.out.println("------------------------------");
-		System.out.println("1.Ê¿±øÇ°½ø");
-		System.out.println("2.Ê¿±ø½ø¹¥");
-		System.out.println("3.½áÊø");
-		System.out.println("Ñ¡Ôñ¡ª¡ª>");
+		System.out.println("1.å£«å…µå‰è¿›");
+		System.out.println("2.å£«å…µè¿›æ”»");
+		System.out.println("3.ç»“æŸ");
+		System.out.println("é€‰æ‹©â€”â€”>");
 		int c = new Scanner(System.in).nextInt();
 		System.out.println("\n-----------------------------");
 		return c;
 	}
 	private static void choice() {
-		System.out.println("ÊäÈëÏëÒªÇ°½øµÄÊ¿±ø±àºÅ£º");
+		System.out.println("è¾“å…¥æƒ³è¦å‰è¿›çš„å£«å…µç¼–å·ï¼š");
 		int c = new Scanner(System.in).nextInt();
 		if(c == 9527) {
 			s1.go();
@@ -48,12 +48,12 @@ public class Test1 {
 			s2.go();
 		}
 		else {
-			System.out.println("Î´ÕÒµ½¸ÃÊ¿±ø£¡");
+			System.out.println("æœªæ‰¾åˆ°è¯¥å£«å…µï¼");
 		}
 		
 	}
 	private static void f2() {
-		System.out.println("ÊäÈëÏëÒª½ø¹¥µÄÊ¿±ø±àºÅ£º");
+		System.out.println("è¾“å…¥æƒ³è¦è¿›æ”»çš„å£«å…µç¼–å·ï¼š");
 		int c = new Scanner(System.in).nextInt();
 		if(c == 9527) {
 			s1.attack();
@@ -62,7 +62,7 @@ public class Test1 {
 			s2.attack();
 		}
 		else {
-			System.out.println("Î´ÕÒµ½¸ÃÊ¿±ø£¡");
+			System.out.println("æœªæ‰¾åˆ°è¯¥å£«å…µï¼");
 		}
 		
 	}

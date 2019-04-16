@@ -4,34 +4,34 @@ import java.util.Scanner;
 
 public class Test1 {
 public static void main(String[] args) {
-	System.out.println("ÊäÈëÏëÒªÁìÑøµÄ³èÎï£º");
-	System.out.println("1.Ã¨");
-	System.out.println("2.¹·");
-	System.out.println("3.Öí");
-	System.out.print("Ñ¡Ôñ¡ª¡ª>");
+	System.out.println("è¾“å…¥æƒ³è¦é¢†å…»çš„å® ç‰©ï¼š");
+	System.out.println("1.çŒ«");
+	System.out.println("2.ç‹—");
+	System.out.println("3.çŒª");
+	System.out.print("é€‰æ‹©â€”â€”>");
 	int c = new Scanner(System.in).nextInt();
-	System.out.println("¸ø³èÎïÆð¸öÃû×Ö°É£¡");
+	System.out.println("ç»™å® ç‰©èµ·ä¸ªåå­—å§ï¼");
 	String n = new Scanner(System.in).nextLine();
 	Cat cat = null;
 	Dog dog = null;
 	Pig pig = null;
 	if (c == 1) {
 		cat = new Cat(n);
-		cat.setSound("ß÷~");
+		cat.setSound("å–µ~");
 		f(cat);
 	}
 	else if (c == 2) {
 		dog = new Dog(n);
-		dog.setSound("Íô~");
+		dog.setSound("æ±ª~");
 		f(dog);
 	}
 	else if (c == 3) {
 		pig = new Pig(n);
-		pig.setSound("ºß~");
+		pig.setSound("å“¼~");
 		f(pig);
 	}
 	else {
-		System.out.println("ÓÎÏ·½áÊø");
+		System.out.println("æ¸¸æˆç»“æŸ");
 	}
 }
 
@@ -39,12 +39,12 @@ private static void f(Pet pet) {
 	outer:
 		while(true) {
 			System.out.println("\n-----------------------");
-			System.out.println("ºÍ"+pet.getName()+"Ò»ÆðÍæ°É£¡");
-			System.out.println("1.Î¹Ê³");
-			System.out.println("2.ÍæË£");
-			System.out.println("3.Van¡á");
-			System.out.println("4.ÍË³ö");
-			System.out.print("Ñ¡Ôñ¡ª¡ª>");
+			System.out.println("å’Œ"+pet.getName()+"ä¸€èµ·çŽ©å§ï¼");
+			System.out.println("1.å–‚é£Ÿ");
+			System.out.println("2.çŽ©è€");
+			System.out.println("3.Vanâ™‚");
+			System.out.println("4.é€€å‡º");
+			System.out.print("é€‰æ‹©â€”â€”>");
 			int c = new Scanner(System.in).nextInt();
 
 			switch(c) {

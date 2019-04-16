@@ -4,14 +4,14 @@ public class Test {
 	public static void main(String[] arge) {
 		System.out.print("Hello");
 		System.out.println("World");
-		System.out.println("»¶Ó­À´µ½´ïÄÚ");
-		System.out.println("½ñÈÕÊÂ½ñÈÕ±Ï");
+		System.out.println("æ¬¢è¿æ¥åˆ°è¾¾å†…");
+		System.out.println("ä»Šæ—¥äº‹ä»Šæ—¥æ¯•");
 		System.out.print("...");
-		System.out.println("àÓàÓàÓ");
+		System.out.println("å˜¤å˜¤å˜¤");
 		System.err.println("NB");
-		System.out.println("½áÊø");
-		System.out.println("²¢Ã»ÓĞ");
-		System.out.print("×îÇ¿´óÄÔ");
+		System.out.println("ç»“æŸ");
+		System.out.println("å¹¶æ²¡æœ‰");
+		System.out.print("æœ€å¼ºå¤§è„‘");
 		System.out.println("a");
 		System.out.print("b");
 		System.out.println("c");
