@@ -13,7 +13,7 @@ public class Weapon {
 		this.bullets = bullets;
 	}
 	public void fire() {
-		System.out.println(name + "¿ª»ğ");
+		System.out.println(name + "å¼€ç«");
 		int r = 3 + new Random().nextInt(5);
 		if (r > bullets) {
 			r = bullets;
@@ -23,7 +23,7 @@ public class Weapon {
 		}
 		bullets -= r;
 		System.out.println("~");
-		System.out.println("Ê£Óà×Óµ¯ÊıÁ¿:"+bullets);
+		System.out.println("å‰©ä½™å­å¼¹æ•°é‡:"+bullets);
 	}
 	public void reload() {
 		bullets = 100;

@@ -11,19 +11,19 @@ public class Test1 {
 	int v1 = 1;
 	static int v2 = 2;
 	static {
-	    System.out.println("A¾²Ì¬¿é");
+	    System.out.println("Aé™æ€å—");
 	}
 	A() {
-	    System.out.println("A¹¹Ôì");
+	    System.out.println("Aæ„é€ ");
 	}
 	}
 	class B extends A {
 	int v3 = 3;
 	static int v4 = 4;
 	static {
-	    System.out.println("B¾²Ì¬¿é");
+	    System.out.println("Bé™æ€å—");
 	}
 	B() {
-	    System.out.println("B¹¹Ôì");
+	    System.out.println("Bæ„é€ ");
 	}
 }

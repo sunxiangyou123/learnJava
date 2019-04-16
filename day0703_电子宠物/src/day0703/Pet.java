@@ -17,47 +17,47 @@ public class Pet {
 	}
 	public void feed() {
 		if (full >= 100) {
-			System.out.println(name+"ÔÙ³Ô¾ÍÒª³ÅËÀÁË");
+			System.out.println(name+"å†åƒå°±è¦æ’‘æ­»äº†");
 			return;
 		}
-		System.out.println("Î¹"+name+"³Ô¶«Î÷");
+		System.out.println("å–‚"+name+"åƒä¸œè¥¿");
 		int f = 5+ new Random().nextInt(6);
 		full +=f;
-		System.out.println(name+"´ó¿ì¶äÒÃ£¬±¥Ê³¶ÈÔö¼ÓÁË"+f);
-		System.out.println(name+"±¥Ê³¶È£º"+full);
-		System.out.println(name+"¿ªĞÄÖµ£º"+happy);
+		System.out.println(name+"å¤§å¿«æœµé¢ï¼Œé¥±é£Ÿåº¦å¢åŠ äº†"+f);
+		System.out.println(name+"é¥±é£Ÿåº¦ï¼š"+full);
+		System.out.println(name+"å¼€å¿ƒå€¼ï¼š"+happy);
 	}
 	public void play() {
 		if (full == 0) {
-			System.out.println(name+"¿ì¶öËÀÁË°¡");
+			System.out.println(name+"å¿«é¥¿æ­»äº†å•Š");
 		}
 		caidan();
 		
 	}
 	public void caidan() {
-		System.out.println("ÇëÑ¡ÔñÍæ¾ß£º");
-		System.out.println("1.Íæ¾ß³µ");
-		System.out.println("2.Ã«Çò");
-		System.out.println("3.Ïä×Ó");
-		System.out.println("4.Ã»Ç®£¬»¹ÊÇËãÁË");
-		System.out.println("Ñ¡Ôñ¡ª¡ª>");
+		System.out.println("è¯·é€‰æ‹©ç©å…·ï¼š");
+		System.out.println("1.ç©å…·è½¦");
+		System.out.println("2.æ¯›çƒ");
+		System.out.println("3.ç®±å­");
+		System.out.println("4.æ²¡é’±ï¼Œè¿˜æ˜¯ç®—äº†");
+		System.out.println("é€‰æ‹©â€”â€”>");
 		int c = new Scanner(System.in).nextInt();
 		outer:
 		switch (c) {
 		case 1:
-			System.out.println("ºÍ"+name+"ÍæÍæ¾ß³µ");
+			System.out.println("å’Œ"+name+"ç©ç©å…·è½¦");
 			playx();
 			break;
 		case 2 :
-			System.out.println("ºÍ"+name+"ÍæÍæÃ«Çò");
+			System.out.println("å’Œ"+name+"ç©ç©æ¯›çƒ");
 			playx();
 			break;
 		case 3 :
-			System.out.println("ºÍ"+name+"ÍæÍæÏä×Ó");
+			System.out.println("å’Œ"+name+"ç©ç©ç®±å­");
 			playx();
 			break;
 		case 4 :
-			System.out.println(name+"ºÃÏñ²»¿ªĞÄ");
+			System.out.println(name+"å¥½åƒä¸å¼€å¿ƒ");
 			playx();
 			break;
 		default:
@@ -71,16 +71,16 @@ public class Pet {
 		int b =3+ new Random().nextInt(6);
 		happy += a ;
 		full -= b;
-		System.out.println(name+"ºÜ¿ªĞÄ£¬»¶ÀÖÖµ¼Ó"+a+"±¥Ê³¶È¼õ"+b);
-		System.out.println(name+"±¥Ê³¶È£º"+full);
-		System.out.println(name+"¿ªĞÄÖµ£º"+happy);
+		System.out.println(name+"å¾ˆå¼€å¿ƒï¼Œæ¬¢ä¹å€¼åŠ "+a+"é¥±é£Ÿåº¦å‡"+b);
+		System.out.println(name+"é¥±é£Ÿåº¦ï¼š"+full);
+		System.out.println(name+"å¼€å¿ƒå€¼ï¼š"+happy);
 	}
 	public void punish() {
-		//²»Í¬µÄ´úÂë¾Í¸Ä³Éµ÷ÓÃ·½·¨
-		System.out.println("ÓÃĞ¡Æ¤±Ş´ò"+name+"µÄPP£¬"+name+"¿Ş½Ğµ½£º"+cry());
+		//ä¸åŒçš„ä»£ç å°±æ”¹æˆè°ƒç”¨æ–¹æ³•
+		System.out.println("ç”¨å°çš®é­æ‰“"+name+"çš„PPï¼Œ"+name+"å“­å«åˆ°ï¼š"+cry());
 	}
 	public String cry() {
-		//ÎŞÒâÒå´úÂë£¬±ØĞëÔÚ×ÓÀàÖĞÖØĞ´¸Ã·½·¨
+		//æ— æ„ä¹‰ä»£ç ï¼Œå¿…é¡»åœ¨å­ç±»ä¸­é‡å†™è¯¥æ–¹æ³•
 		return null;
 	}
 	public String getName() {

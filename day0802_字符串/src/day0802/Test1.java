@@ -3,17 +3,17 @@ package day0802;
 public class Test1 {
 	public static void main(String[] args) {
 		char[] a = {'a', 'b', 'c', 'd'};
-	    String s1 = new String(a);//ĞÂ·ÖÅäÄÚ´æ
-	    String s2 = "abcd";//ÔÚ³£Á¿³ØĞÂ·ÖÅäÄÚ´æ
-	    String s3 = "abcd";//·ÃÎÊ³£Á¿³Ø´æÔÚµÄ¶ÔÏó
+	    String s1 = new String(a);//æ–°åˆ†é…å†…å­˜
+	    String s2 = "abcd";//åœ¨å¸¸é‡æ± æ–°åˆ†é…å†…å­˜
+	    String s3 = "abcd";//è®¿é—®å¸¸é‡æ± å­˜åœ¨çš„å¯¹è±¡
 	    System.out.println(s1);
 	    System.out.println(s2);
 	    System.out.println(s3);
-	    System.out.println(s1 == s2);//false£¬µØÖ·²»Í¬
-	    System.out.println(s2 == s3);//true£¬µØÖ·ÏàÍ¬
+	    System.out.println(s1 == s2);//falseï¼Œåœ°å€ä¸åŒ
+	    System.out.println(s2 == s3);//trueï¼Œåœ°å€ç›¸åŒ
 	    /*
-	     * equals()±È½ÏÊ²Ã´£¬
-	     * ½øÈëequals()·½·¨¿´ÀïÃæµÄ´úÂëÔÚ±È½ÏÊ²Ã´
+	     * equals()æ¯”è¾ƒä»€ä¹ˆï¼Œ
+	     * è¿›å…¥equals()æ–¹æ³•çœ‹é‡Œé¢çš„ä»£ç åœ¨æ¯”è¾ƒä»€ä¹ˆ
 	     */
 	    System.out.println(s1.equals(s2));
 	}

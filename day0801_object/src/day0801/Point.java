@@ -3,7 +3,7 @@ package day0801;
 public class Point {
 	int x;
 	int y;
-	//ÎŞ²Î¹¹Ôì¡¢È«²Î¹¹Ôì
+	//æ— å‚æ„é€ ã€å…¨å‚æ„é€ 
 	public Point() {
 	}
 
@@ -23,7 +23,7 @@ public class Point {
 	@Override
 	public boolean equals(Object obj) {
 	    Point p = (Point) obj;
-	    //µ±Ç°¶ÔÏóµÄx,y£¬ºÍ²ÎÊı¶ÔÏópµÄx,y±È½Ï
+	    //å½“å‰å¯¹è±¡çš„x,yï¼Œå’Œå‚æ•°å¯¹è±¡pçš„x,yæ¯”è¾ƒ
 	    return this.x == p.x && this.y == p.y;
 	}
 }

@@ -7,14 +7,14 @@ public class Soldier {
 	int blood = 50;
 	Weapon weapon;
 	public void go() {
-		System.out.println(id+"ºÅÊ¿±øÇ°½ø");
+		System.out.println(id+"å·å£«å…µå‰è¿›");
 	}
 	public void attack() {
 		if (blood == 0) {
-			System.out.println("¸ÃÊ¿±øÒÑÕóÍö");
+			System.out.println("è¯¥å£«å…µå·²é˜µäº¡");
 			return;
 		}
-		System.out.println(id+"ºÅÊ¿±ø·¢Æğ¹¥»÷");
+		System.out.println(id+"å·å£«å…µå‘èµ·æ”»å‡»");
 		if (this.weapon != null) {
 			if (this.weapon.bullets == 0) {
 				this.weapon.reload();
@@ -26,10 +26,10 @@ public class Soldier {
 			d = blood;
 		}
 		this.blood -= d;
-		System.out.println(id+"ºÅÊ¿±øÊÜµ½"+d+"µãÉËº¦");
-		System.out.println("Ê£ÓàÑªÁ¿£º"+blood);
+		System.out.println(id+"å·å£«å…µå—åˆ°"+d+"ç‚¹ä¼¤å®³");
+		System.out.println("å‰©ä½™è¡€é‡ï¼š"+blood);
 		if (blood == 0) {
-			System.out.println(id+"ºÅÊ¿±øÕóÍö");
+			System.out.println(id+"å·å£«å…µé˜µäº¡");
 		}
 	}
 	public int getId() {

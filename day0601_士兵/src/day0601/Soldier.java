@@ -14,21 +14,21 @@ public class Soldier {
 	
 	public void go() {
 		int d = new Random().nextInt(100);
-		System.out.println(id + "ºÅÊ¿±øÇ°½øÁË"+d+"Ã×");
+		System.out.println(id + "å·å£«å…µå‰è¿›äº†"+d+"ç±³");
 	}
 	
 	public void attack() {
 		if (this.blood == 0) {
-			System.out.println(this.id+"ºÅÊ¿±øÒÑÕóÍö");
+			System.out.println(this.id+"å·å£«å…µå·²é˜µäº¡");
 			return;
 		}
-		System.out.println(id + "Ê¿±ø×¼±¸¿ª»ğ");
+		System.out.println(id + "å£«å…µå‡†å¤‡å¼€ç«");
 		newWeapon();
 		weapon.fire();
 	}
 	
 	/**
-	 * ¸øÊ¿±øÊµÌå¸³ÖµÒ»¸öËæ»úÎäÆ÷
+	 * ç»™å£«å…µå®ä½“èµ‹å€¼ä¸€ä¸ªéšæœºæ­¦å™¨
 	 */
 	private void newWeapon() {
 		int w =1 + new Random().nextInt(1);

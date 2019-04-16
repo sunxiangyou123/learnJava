@@ -20,8 +20,8 @@ public class GuessLetterGame extends GuessGame{
 
 	@Override
 	public void tiShi() {
-		System.out.println("ÒÑ¾­²úÉúÁË5¸ö²»ÖØ¸´µÄ´óĞ´×ÖÄ¸");
-		System.out.println("²Â²ÂÕâ5¸ö×ÖÄ¸");
+		System.out.println("å·²ç»äº§ç”Ÿäº†5ä¸ªä¸é‡å¤çš„å¤§å†™å­—æ¯");
+		System.out.println("çŒœçŒœè¿™5ä¸ªå­—æ¯");
 		
 	}
 

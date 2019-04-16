@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Test1 {
 	public static void main(String[] args) {
-		System.out.println("ÊäÈë»Ø³µÖ´ĞĞ");
+		System.out.println("è¾“å…¥å›è½¦æ‰§è¡Œ");
 		Shape s = null;
 		while(true) {
 			new Scanner(System.in).nextLine();
 			int r = new Random().nextInt(4);
 			switch(r) {
-			case 0: System.out.println("Shape ³éÏóÀà²»ÄÜ´´½¨ÊµÀı");
+			case 0: System.out.println("Shape æŠ½è±¡ç±»ä¸èƒ½åˆ›å»ºå®ä¾‹");
 			case 1: s = new Line();
 			break;
 			case 2 : s = new Square();
@@ -24,12 +24,12 @@ public class Test1 {
 	}
 
 	private static void f(Shape s) {
-		System.out.println("--µ±×öShape¸¸ÀàĞÍ´¦Àí---------");
+		System.out.println("--å½“åšShapeçˆ¶ç±»å‹å¤„ç†---------");
 		String n = s.getClass().getName();
-		System.out.println("ÕæÊµÀàĞÍ£º"+n);
+		System.out.println("çœŸå®ç±»å‹ï¼š"+n);
 		s.draw();
 		if (s instanceof Line) {
-			System.out.println("ÏòÏÂ×ª»Ø³ÉLineÀàĞÍ£¬ÔÚµ÷ÓÃ³¤¶È·½·¨");
+			System.out.println("å‘ä¸‹è½¬å›æˆLineç±»å‹ï¼Œåœ¨è°ƒç”¨é•¿åº¦æ–¹æ³•");
 			Line line = (Line) s;
 			line.length();
 		}

@@ -2,18 +2,18 @@ package day0701;
 
 public class Test1 {
 public static void main(String[] args) {
-	Person p = new Person("ÕÅÈı","ÄĞ",22);
+	Person p = new Person("å¼ ä¸‰","ç”·",22);
 	Student s = new Student();
 	Employee e = new Employee();
-	s.setName("ÀîËÄ");
-	s.setGender("Å®");
+	s.setName("æå››");
+	s.setGender("å¥³");
 	s.setAge(23);
-	s.setSchoolName("Å£Æ¤½î´óÑ§");
-	e.setName("ÍõÎå");
-	e.setGender("ÄĞ");
+	s.setSchoolName("ç‰›çš®ç­‹å¤§å­¦");
+	e.setName("ç‹äº”");
+	e.setGender("ç”·");
 	e.setAge(50);
 	e.setSalary(9500);
-	//printÄ¬ÈÏµ÷ÓÃ¶ÔÏóµÄtoString·½·¨
+	//printé»˜è®¤è°ƒç”¨å¯¹è±¡çš„toStringæ–¹æ³•
 	System.out.println(p.toString());
 	System.out.println(s);
 	System.out.print(e);

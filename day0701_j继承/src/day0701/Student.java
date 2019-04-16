@@ -2,19 +2,19 @@ package day0701;
 
 public class Student extends Person{
 	String schoolName;
-	//super´úÂëÒªÇó±ØĞëÊÇÊ×ĞĞ£¬Óëthis²»¿ÉÍ¬Ê±³öÏÖ£¨thisÒ²ÒªÇóÊ×ĞĞ£©
+	//superä»£ç è¦æ±‚å¿…é¡»æ˜¯é¦–è¡Œï¼Œä¸thisä¸å¯åŒæ—¶å‡ºç°ï¼ˆthisä¹Ÿè¦æ±‚é¦–è¡Œï¼‰
 	public Student() {
-		//super();//Ä¬ÈÏÒşº¬µ÷ÓÃ£¬²»ÊÇ¼Ì³Ğ
+		//super();//é»˜è®¤éšå«è°ƒç”¨ï¼Œä¸æ˜¯ç»§æ‰¿
 	}
 	public Student(String name , String gender,int age,String schoolName) {
-		super(name,gender,age);//ÊÖ¶¯µ÷ÓÃ¸¸ÀàµÄÓĞ²Î¹¹Ôì£¬¼õÉÙ´úÂëÖØ¸´¡£
+		super(name,gender,age);//æ‰‹åŠ¨è°ƒç”¨çˆ¶ç±»çš„æœ‰å‚æ„é€ ï¼Œå‡å°‘ä»£ç é‡å¤ã€‚
 		this.schoolName = schoolName;
 	}
 	@Override
-	//Ö´ĞĞ×ÓÀàµÄtoString·½·¨£¬²»Ö´ĞĞ¸¸ÀàµÄ
+	//æ‰§è¡Œå­ç±»çš„toStringæ–¹æ³•ï¼Œä¸æ‰§è¡Œçˆ¶ç±»çš„
 	public String toString() {
 		//super.toStirng();
-		//Ò»°ãÔÚÖØĞ´·½·¨Ê±£¬µ÷ÓÃ¸¸ÀàµÄÒ»¸öÈË·½·¨´úÂë£¬ÒÔ¼õÉÙ´úÂëÖØ¸´¡£
+		//ä¸€èˆ¬åœ¨é‡å†™æ–¹æ³•æ—¶ï¼Œè°ƒç”¨çˆ¶ç±»çš„ä¸€ä¸ªäººæ–¹æ³•ä»£ç ï¼Œä»¥å‡å°‘ä»£ç é‡å¤ã€‚
 		return super.toString() + "," + schoolName;
 	}
 	public void setSchoolName(String schoolName) {

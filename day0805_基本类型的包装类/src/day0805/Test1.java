@@ -5,7 +5,7 @@ public class Test1 {
 		 Integer a = new Integer(6);             
 		    Integer b = Integer.valueOf(6);
 		    Integer c = Integer.valueOf(6);
-		    System.out.println(a == b);//false£¬µØÖ·²»Í¬
+		    System.out.println(a == b);//falseï¼Œåœ°å€ä¸åŒ
 		    System.out.println(b == c);
 		    System.out.println(a.equals(b));//
 		    System.out.println(a.byteValue());

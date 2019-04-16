@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Test1 {
 	public static void main(String[] args) {
-		System.out.println("ÊäÈëÕûÊı£º");
+		System.out.println("è¾“å…¥æ•´æ•°ï¼š");
 		int n = new Scanner(System.in).nextInt();
 		n = n<<24>>>24;
 		System.out.println(n);
-		System.out.println("ÊäÈëÕûÊı£º");
+		System.out.println("è¾“å…¥æ•´æ•°ï¼š");
 		n = new Scanner(System.in).nextInt();
 		n = n & 0x000000ff;
 		System.out.println(n);

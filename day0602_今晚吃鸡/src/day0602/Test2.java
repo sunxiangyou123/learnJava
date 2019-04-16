@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Test2 {
 	public static void main(String[] args) {
-		System.out.println("»¶Ó­½øÈë´Ì¼¤Õ½³¡");
+		System.out.println("æ¬¢è¿Žè¿›å…¥åˆºæ¿€æˆ˜åœº");
 		Soldier[] s = new Soldier[100];
 		for (int i = 0; i < s.length; i++) {
 			Soldier s1 = new Soldier();
@@ -12,7 +12,7 @@ public class Test2 {
 			s1.weapon = new Weapon("M4A"+(i+1));
 			s[i] = s1;
 		}
-		System.out.println("°´»Ø³µÖ´ÐÐ");
+		System.out.println("æŒ‰å›žè½¦æ‰§è¡Œ");
 		while(true) {
 			new Scanner(System.in).nextLine();
 			for (int i = 0; i < s.length; i++) {

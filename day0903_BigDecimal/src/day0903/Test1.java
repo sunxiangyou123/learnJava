@@ -7,7 +7,7 @@ public class Test1 {
 	public static void main(String[] args) {
 		
 	
-	  System.out.println("ÊäÈëÁ½¸ö¸¡µãÊı");
+	  System.out.println("è¾“å…¥ä¸¤ä¸ªæµ®ç‚¹æ•°");
 	    double a = new Scanner(System.in).nextDouble();
 	    double b = new Scanner(System.in).nextDouble();
 	    System.out.println(a+b);
@@ -17,7 +17,7 @@ public class Test1 {
 	    System.out.println("------------------------");
 	    BigDecimal bd1 = BigDecimal.valueOf(a);
 	    BigDecimal bd2 = BigDecimal.valueOf(b);
-	    BigDecimal bd3;//ÓÃÀ´±£´æ¼ÆËã½á¹û
+	    BigDecimal bd3;//ç”¨æ¥ä¿å­˜è®¡ç®—ç»“æœ
 	    bd3 = bd1.add(bd2);
 	    System.out.println(bd3.doubleValue());
 	    bd3 = bd1.subtract(bd2);

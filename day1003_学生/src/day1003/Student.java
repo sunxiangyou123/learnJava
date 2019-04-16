@@ -1,13 +1,13 @@
 package day1003;
 
 public class Student {
-	//¾²Ì¬³õÊ¼»¯¿é
+	//é™æ€åˆå§‹åŒ–å—
 	static {
 	    System.out.println(
-	    "¾²Ì¬¿é - StudentÀà±»¼ÓÔØÊ±Ö´ĞĞ");
+	    "é™æ€å— - Studentç±»è¢«åŠ è½½æ—¶æ‰§è¡Œ");
 	}
-	//³ÉÔ±±äÁ¿Ò»°ã¶¼ÓÃprivateÒş²Ø
-	//±ãÓÚÎ¬»¤ĞŞ¸Ä
+	//æˆå‘˜å˜é‡ä¸€èˆ¬éƒ½ç”¨privateéšè—
+	//ä¾¿äºç»´æŠ¤ä¿®æ”¹
 	private int id;
 	private String name;
 	private String gender;

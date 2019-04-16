@@ -13,6 +13,6 @@ public class Item {
 		this.number = number;
 	}
 	public String toString() {
-		return "±àºÅ£º"+id+"£¬Ãû³Æ"+name+",¼Û¸ñ£º£¤"+price+",ÊıÁ¿"+number;
+		return "ç¼–å·ï¼š"+id+"ï¼Œåç§°"+name+",ä»·æ ¼ï¼šï¿¥"+price+",æ•°é‡"+number;
 	}
 }

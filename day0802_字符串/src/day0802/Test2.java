@@ -5,13 +5,13 @@ public class Test2 {
 	public static void main(String[] args) {
 		String s0 = "abcdefghijklmnopqrstuvwxyz";  
 	    String s = "";
-	    //Á¬½ÓÇ°£¬È¡ÏµÍ³µ±Ç°Ê±¼äµÄÊ±¼äµãºÁÃëÖµ
-	    //ºÁÃëÖµ£º1970-1-1 0µã¿ªÊ¼µÄºÁÃëÖµ
+	    //è¿æ¥å‰ï¼Œå–ç³»ç»Ÿå½“å‰æ—¶é—´çš„æ—¶é—´ç‚¹æ¯«ç§’å€¼
+	    //æ¯«ç§’å€¼ï¼š1970-1-1 0ç‚¹å¼€å§‹çš„æ¯«ç§’å€¼
 	    long t = System.currentTimeMillis();
 	    for (int i = 0; i < 100000; i++) {
 	        s += s0;
 	    }
-	    //ÇóÊ±¼ä²î
+	    //æ±‚æ—¶é—´å·®
 	    t = System.currentTimeMillis()-t;
 	    System.out.println(t);
 

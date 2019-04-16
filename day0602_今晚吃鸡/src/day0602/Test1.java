@@ -7,13 +7,13 @@ public class Test1 {
 	public static void main(String[] args) {
 		Weapon w1 = new Weapon("M4A1");
 		Weapon w2 = new Weapon("AK47",35);
-		System.out.println("»Ø³µ·¢Éä£¬ÊäÈëR×°ÔØ×Óµ¯");
+		System.out.println("å›è½¦å‘å°„ï¼Œè¾“å…¥Rè£…è½½å­å¼¹");
 		while(true) {
 			String s = new Scanner(System.in).nextLine();
 			if (s.equals("r")) {
 				w1.reload();
 				w2.reload();
-				System.out.println("µ¯¼ĞÒÑ×°Âú");
+				System.out.println("å¼¹å¤¹å·²è£…æ»¡");
 				continue;
 			}
 			w1.fire();

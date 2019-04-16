@@ -12,8 +12,8 @@ public class GuessNumberGame extends GuessGame {
 
 	@Override
 	public void tiShi() {
-		System.out.println("ÒÑ¾­Éú³ÉÁËÒ»¸ö100ÒÔÄÚµÄÕûÊı");
-		System.out.println("ÊÔ×Å²ÂÒ»ÏÂ");
+		System.out.println("å·²ç»ç”Ÿæˆäº†ä¸€ä¸ª100ä»¥å†…çš„æ•´æ•°");
+		System.out.println("è¯•ç€çŒœä¸€ä¸‹");
 		
 	}
 
@@ -22,18 +22,18 @@ public class GuessNumberGame extends GuessGame {
 		int r1 = Integer.parseInt(r);
 		int c1 = Integer.parseInt(c);
 		if (r1 < c1) {
-			return "´ó";
+			return "å¤§";
 		}else if (r1 > c1) {
-			return "Ğ¡";
+			return "å°";
 		}else {
-			return "¶Ô";
+			return "å¯¹";
 		}
 		
 	}
 
 	@Override
 	public boolean caiDui(String result) {
-		return result.equals("¶Ô");
+		return result.equals("å¯¹");
 	}
 
 }

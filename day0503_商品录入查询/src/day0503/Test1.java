@@ -29,28 +29,28 @@ public class Test1 {
 	}
 	private static int caidan() {
 		System.out.println("\n-----------------------");
-		System.out.println("1.ÉÌÆ·ÁĞ±í");
-		System.out.println("2.ÉÌÆ·²éÑ¯");
-		System.out.println("3.ÉÌÆ·Â¼Èë");
-		System.out.println("4.Í³¼ÆĞÅÏ¢");
-		System.out.println("5.ÍË³ö");
+		System.out.println("1.å•†å“åˆ—è¡¨");
+		System.out.println("2.å•†å“æŸ¥è¯¢");
+		System.out.println("3.å•†å“å½•å…¥");
+		System.out.println("4.ç»Ÿè®¡ä¿¡æ¯");
+		System.out.println("5.é€€å‡º");
 		System.out.println("--------------------------");
-		System.out.print("Ñ¡Ôñ¡ª¡ª>");
+		System.out.print("é€‰æ‹©â€”â€”>");
 		int c = new Scanner(System.in).nextInt();
 		return c;
 	}
 	private static void f1() {
-		System.out.println("ÉÌÆ·²Ëµ¥£º");
+		System.out.println("å•†å“èœå•ï¼š");
 		for(int i = 0 ; i < items.length; i++) {
 			System.out.println(items[i].toString());
 		}
 		
 	}
 	private static void f2() {
-		//s.indexOf(×Ó´®)£¬ÔÚsÖĞÑ°ÕÒ×Ó´®µÄÆğÊ¼Î»ÖÃ
-		//´æÔÚÔò·µ»ØÏÂ±êÖµ£¬²»´æÔÚÔò·µ»ØÌØÊâÖµ-1
+		//s.indexOf(å­ä¸²)ï¼Œåœ¨sä¸­å¯»æ‰¾å­ä¸²çš„èµ·å§‹ä½ç½®
+		//å­˜åœ¨åˆ™è¿”å›ä¸‹æ ‡å€¼ï¼Œä¸å­˜åœ¨åˆ™è¿”å›ç‰¹æ®Šå€¼-1
 		String n = new Scanner(System.in).nextLine();
-		String m = n.toUpperCase();//½«Ğ¡Ğ´»¯³É´óĞ´
+		String m = n.toUpperCase();//å°†å°å†™åŒ–æˆå¤§å†™
 		for (int i = 0; i < items.length; i++) {
 			if(items[i].name.indexOf(n) >= 0 || items[i].name.indexOf(m) != -1) {
 				System.out.println(items[i]);
@@ -60,14 +60,14 @@ public class Test1 {
 	}
 	private static void f3() {
 		for (int i = 0; i < items.length; i++) {
-			System.out.println("Â¼ÈëµÚ"+(i+1)+"¼şÉÌÆ·");
-			System.out.print("±àºÅ");
+			System.out.println("å½•å…¥ç¬¬"+(i+1)+"ä»¶å•†å“");
+			System.out.print("ç¼–å·");
 			items[i].id = new Scanner(System.in).nextInt(); 
-			System.out.print("Ãû³Æ");
+			System.out.print("åç§°");
 			items[i].name = new Scanner(System.in).nextLine();
-			System.out.print("¼Û¸ñ");
+			System.out.print("ä»·æ ¼");
 			items[i].price = new Scanner(System.in).nextInt();
-			System.out.print("ÊıÁ¿");
+			System.out.print("æ•°é‡");
 			items[i].number = new Scanner(System.in).nextInt();
 		}
 		f1();
@@ -91,10 +91,10 @@ public class Test1 {
 			}
 			
 		}
-		System.out.println("ÉÌÆ·×Ü¼Û£º"+spzj);
-		System.out.println("µ¥¼Û¾ù¼Û£º"+(djzj/items.length));
-		System.out.println("×î¸ß×Ü¼Û£º"+zgzj);
-		System.out.println("×î¸ßµ¥¼Û×Ü¼Û£º"+zgzj);
+		System.out.println("å•†å“æ€»ä»·ï¼š"+spzj);
+		System.out.println("å•ä»·å‡ä»·ï¼š"+(djzj/items.length));
+		System.out.println("æœ€é«˜æ€»ä»·ï¼š"+zgzj);
+		System.out.println("æœ€é«˜å•ä»·æ€»ä»·ï¼š"+zgzj);
 	}
 
 }

@@ -8,8 +8,8 @@ public class Test2 {
 		 int[] a = random();
 		 System.out.println(Arrays.toString(a));
 		 int index = f(a);
-		 System.out.println("��СֵΪ"+a[index]);
-		 System.out.println("��Сֵ�±�Ϊ"+index);
+		 System.out.println("最小值为"+a[index]);
+		 System.out.println("最小值下标为"+index);
 	}
 
 	private static int[] random() {

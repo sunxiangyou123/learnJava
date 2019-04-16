@@ -4,11 +4,11 @@ public class Line extends Shape{
 
 	@Override
 	public void draw() {
-		System.out.println("¡ª¡ª");
+		System.out.println("â€”â€”");
 		
 	}
 	public void length() {
-		System.out.println("Ê®¼¸ÀåÃ×³¤....");
+		System.out.println("åå‡ å˜ç±³é•¿....");
 	}
 
 }
