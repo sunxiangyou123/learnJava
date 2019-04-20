@@ -1,6 +1,7 @@
 package day1305;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Scanner;import javax.imageio.plugins.jpeg.JPEGHuffmanTable;
 
 public class Test1 {
@@ -17,6 +18,7 @@ public class Test1 {
 
 	private static String xunZhao(File f2) {
 		File[] list = f2.listFiles();
+		ArrayList<String> a = new ArrayList<>();
 		for (int i = 0; i < list.length; i++) {
 			File f = list[i];
 			if (f.isDirectory()) {
@@ -24,8 +26,8 @@ public class Test1 {
 			}else {
 				String s1 = f.getName();
 				StringBuilder s =new StringBuilder();
-				s.append(s1.substring(s1.lastIndexOf(".") + 1));
-				
+				String s2 = s1.substring(s1.lastIndexOf(".") + 1);
+				a.add(s2);
 			}
 		}
 		return null;
