@@ -1,0 +1,11 @@
+SimpleDateFormate 
+日期格式处理工具，
+把Date格式化成字符串
+把日期字符串，解析成Date对象
+SimpleDateFormate f = new SimpleDateFormate(封装格式的字符串)；//日期格式处理工具对象
+Date，封装一个毫秒值
+Date d1 = f.parse(String)//把日期字符串解析成Date实例
+Date d2 = f.parse(String)
+d1.getTime();//访问其封装的毫秒值
+d1.comparaTo(d2);比较时间
+String s = f.format(new Date());直接新建一个Date实例将其转化为所需格式的字符串

@@ -1,0 +1,35 @@
+String StringBulider
+String 是封装char[]数组的对象
+char[] a = {'a', 'b', 'c', 'd'};
+String s = new String(a);
+可以简化成 String a = “abcd”;
+第一次使用一个字符串字面值时，会在“字符串常量池”中新分配内存，再次使用相同字面值时，直接访问常量池中存在的对象，而不重复创建
+public class Test1 {
+public static void main(String[] args) {
+    char[] a = {'a', 'b', 'c', 'd'};
+    String s1 = new String(a);//新分配内存
+    String s2 = "abcd";//在常量池新分配内存
+    String s3 = "abcd";//访问常量池存在的对象
+    System.out.println(s1);
+    System.out.println(s2);
+    System.out.println(s3);
+    System.out.println(s1 == s2);//false，地址不同
+    System.out.println(s2 == s3);//true，地址相同
+
+字符串不可变，字符串连接效率低，每次都新建一个字符串，一个加号相当于建了两个字符串：StringBulider 和 String 
+indexOf(子串);//找第一个子串出现的起始位置，找不到返回 -1
+indexOf(子串, start)//从执行位置向后查找
+lastIndexOf(子串)//从后向前找
+substring(start)//截取 start 到末尾
+substring(start, end)//截取 [start, end) 范围
+trim() //去除两端的空白字符
+
+StringBulider 
+可变的字符序列
+封装 char[] 数组，提供了一组方法，可以对内部封装的字符进行修改
+append()//追加
+delete(start, end)//删除区间 [start, end)
+deleteCharAt(i)//删除指定位置的单个字符
+insert(i, 内容)//在指定位置插入
+setCharAt(i, 字符)//替换指定位置的单个字符
+replace(start, end, 内容)//替换指定范围的内容

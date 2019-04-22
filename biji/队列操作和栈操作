@@ -1,0 +1,12 @@
+队列操作和栈操作
+
+队列操作：后面进，前面出
+offer()  addLast()
+peek()   getLaet()
+poll()   removeFirst()
+
+
+栈操作：前面进，前面出
+
+push() 压入   addFirst()
+pop() 弹出   removeFirst()

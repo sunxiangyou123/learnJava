@@ -1,0 +1,3 @@
+多肽
+
+instanceof   对真实类型和父类型判断都返回 true
