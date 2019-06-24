@@ -1,0 +1,376 @@
+.h_inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+header {
+  height: 60px;
+  background-color: #222222;
+  color: #fff;
+  position: relative;
+  z-index: 99;
+}
+header .s-logo {
+  margin-right: 50px;
+  padding-top: 15px;
+}
+header .s-logo img {
+  width: 235px;
+  height: 29px;
+}
+header ul li {
+  text-align: center;
+  width: 110px;
+  line-height: 60px;
+}
+header ul li a {
+  display: block;
+}
+header ul li a:hover {
+  color: #fff;
+  background-color: #e26b57;
+}
+header ul li:hover > ul {
+  display: block;
+}
+header ul li > ul {
+  display: none;
+}
+header ul li > ul li {
+  height: 40px;
+  line-height: 40px;
+  background: #222222;
+}
+header .s-search {
+  height: 20px;
+  margin-top: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  padding-right: 20px;
+  cursor: pointer;
+}
+header .login_btn {
+  padding-top: 15px;
+}
+header .login_btn a {
+  display: inline-block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 15px;
+  color: #fff;
+}
+header .login_btn a.zc_btn {
+  background-color: #e26b57;
+}
+.cat_cont {
+  padding-top: 30px;
+}
+.cat_cont .c_left {
+  padding-right: 40px;
+}
+.picScroll-left {
+  width: 680px;
+  overflow: hidden;
+  position: relative;
+}
+.picScroll-left .hd {
+  z-index: 99;
+  position: absolute;
+  left: 45%;
+  bottom: 20px;
+}
+.picScroll-left .hd ul li {
+  font-size: 0;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.picScroll-left .hd ul li.on {
+  background-color: #fff;
+}
+.picScroll-left .bd ul {
+  overflow: hidden;
+  zoom: 1;
+}
+.picScroll-left .bd ul li {
+  width: 680px;
+  float: left;
+}
+.out_border {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+.gundong {
+  border-bottom: 1px solid #ddd;
+  width: 680px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.gundong .ding {
+  color: #414141;
+}
+.gundong .ding img {
+  margin-top: 8px;
+  vertical-align: top;
+}
+.gundong .txtScroll-top {
+  overflow: hidden;
+  position: relative;
+}
+.gundong .txtScroll-top .hd {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  right: 0;
+  bottom: 0;
+}
+.gundong .txtScroll-top .bd {
+  width: 450px;
+  padding-right: 20px;
+  border-right: 1px solid #ddd;
+}
+.gundong .txtScroll-top .bd li {
+  height: 40px;
+  line-height: 40px;
+}
+.gundong .txtScroll-top .bd li .date {
+  float: right;
+  color: #999;
+}
+.gundong .txtScroll-top .hd .prev,
+.gundong .txtScroll-top .hd .next {
+  float: right;
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  overflow: hidden;
+  cursor: pointer;
+  background: url("../images/cat_14.jpg") no-repeat;
+  margin: 10px 15px 0 0px;
+}
+.gundong .txtScroll-top .hd .next {
+  background: url("../images/cat_16.jpg") no-repeat;
+}
+.title {
+  margin: 15px;
+}
+.title h3 {
+  font-size: 16px;
+  color: #E26B57;
+  padding-left: 10px;
+  border-left: 3px solid #E26B57;
+}
+.title a {
+  text-align: center;
+  width: 45px;
+  height: 16px;
+  line-height: 16px;
+  background-color: #000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 4px;
+}
+.dt_lists {
+  padding: 0 20px;
+}
+.dt_lists dl {
+  margin-bottom: 20px;
+}
+.dt_lists dl dt {
+  margin-right: 28px;
+}
+.dt_lists dl dt img {
+  width: 215px;
+  height: 141px;
+}
+.dt_lists dl dd h3 {
+  font-size: 14px;
+  color: #222;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.dt_lists dl dd .line {
+  width: 35px;
+  height: 1px;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+.dt_lists dl dd > p {
+  height: 65px;
+  color: #969696;
+  line-height: 18px;
+}
+.dt_lists dl dd > div {
+  height: 30px;
+}
+.dt_lists dl dd > div .left {
+  padding-top: 10px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 12px;
+}
+.dt_lists dl dd > div .left img {
+  padding-right: 5px;
+}
+.dt_lists dl dd > div .s-btn {
+  width: 55px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #e26b57;
+  border: 1px solid #e26b57;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dt_lists dl dd > div .s-btn:hover {
+  background-color: #e26b57;
+  color: #fff;
+}
+.like_lists .item {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.like_lists .item .top {
+  height: 25px;
+  line-height: 25px;
+}
+.like_lists .item .top > img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.like_lists .item .top .time {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #969696;
+  line-height: 15px;
+}
+.like_lists .item .top .time img {
+  width: 15px;
+  height: 15px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+.like_lists .item h2 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #fef7f6;
+  text-align: center;
+  font-size: 18px;
+  color: #222222;
+}
+.like_lists .item > p {
+  color: #969696;
+  line-height: 24px;
+}
+.like_lists .item .bottom .dex {
+  margin-right: 10px;
+  color: #969696;
+}
+.like_lists .item .bottom .dex img {
+  padding-right: 5px;
+}
+.loading {
+  width: 19px;
+  height: 53px;
+  margin: 35px auto;
+}
+.c_right {
+  position: relative;
+}
+.c_right .go_top {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.c_right .top_tabs ul li {
+  margin-bottom: 10px;
+}
+.c_right > h3 {
+  font-size: 16px;
+  color: #E26B57;
+  height: 50px;
+  line-height: 50px;
+}
+.c_right .tuijian_lists .item {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-bottom: 1px dashed #ddd;
+}
+.c_right .tuijian_lists .item dl dt {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.c_right .tuijian_lists .item dl dt img {
+  width: 50px;
+  height: 50px;
+}
+.c_right .tuijian_lists .item dl dd {
+  padding-top: 8px;
+}
+.c_right .tuijian_lists .item dl dd p {
+  font-size: 12px;
+  padding-top: 8px;
+  color: #969696;
+}
+.c_right .tuijian_lists .item .r_btn {
+  width: 46px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  border: 1px solid #dddddd;
+  color: #2ca24c;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+footer {
+  margin-top: 20px;
+  height: 164px;
+  background-color: #222222;
+}
+footer .top {
+  padding-top: 32px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+footer .top .f_logo {
+  width: 317px;
+  height: 71px;
+  margin-right: 70px;
+}
+footer .top ul {
+  margin-top: 35px;
+}
+footer .top ul li {
+  color: #fff;
+  margin: 0 10px;
+}
+footer .top ul li a {
+  color: #fff;
+}
+footer .top ul li a:hover {
+  text-decoration: underline;
+}
+footer p {
+  width: 100%;
+  padding-top: 13px;
+  text-align: center;
+  color: #fff;
+}
